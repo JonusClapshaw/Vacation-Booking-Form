@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Booking Form</title>
+
+    <link rel="stylesheet" href="styles/styles.css">
+
+</head>
+
+<body>
+    <div class = "image">
+        <img src = "https://bit.ly/305-vacation" alt = "sandy beach next to clear blue water">
+        <div class = "text">Book Your Dream Vacation</div>
+    </div>
+    
+    <form id="vacation-form" action="submit-form" method="post">
+        <legend>Desination</legend>
+        <select id="desination" name ="destination">
+            <option value = "select"> Select Destination</option>
+            <option value = "bali">Bali, Indonesia</option>
+            <option value = "paris">Paris, Francec</option>
+            <option value = "tokyo">Tokyo, Japan</option>
+            <option value = "maldives">Maldives</option>
+            <option value = "ny">New York City, USA</option>
+        </select>
+
+        <legend>Departure Date</legend>
+        <input type='date' id ="date" name = "date"></input>
+
+        <legend>Number of Travelers</legend>
+        <input type="number" id="travelers" name="travelers">
+    </form>
+
+    <p>test</p>
+</body>
+</html>
