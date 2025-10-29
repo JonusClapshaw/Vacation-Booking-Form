@@ -12,44 +12,9 @@
 </head>
 
 <body>    
-    <form id="vacation-form" action="submit-form" method="POST">
-
-        <div class = "image">
+    <div class = "image">
         <img src = "https://bit.ly/305-vacation" alt = "sandy beach next to clear blue water">
-        <div class = "text"><h1>Book Your Dream Vacation</h1></div>
+        <div class = "text"><h1>Thank you for your request</h1></div>
         </div>
-
-        <div class = "form-container">
-            <div class ="grid-item-one">
-                <legend>Destination</legend>
-                <select id="destination" name ="destination">
-                    <option value = "select"> Choose Destination</option>
-                    <option value = "bali">Bali, Indonesia</option>
-                    <option value = "paris">Paris, France</option>
-                    <option value = "tokyo">Tokyo, Japan</option>
-                    <option value = "maldives">Maldives</option>
-                    <option value = "ny">New York City, USA</option>
-                </select>
-                <span id = "err-des" class = "error"> Destination cannot be blank </span>
-            </div>
-
-            <div class ="grid-item-two">
-                <legend>Departure Date</legend>
-                <input type='date' id ="date" name = "date"></input>
-            </div>
-            
-            <div class ="grid-item-three">
-                <legend>Number of Travelers</legend>
-                <input type="number" id="travelers" name="travelers">
-                <span id = "err-trav" class = "error"> Travelers cannot Blank</span>
-                <span id = "err-trav2" class = "error"> Travelers cannot be less than 0</span>
-            </div>
-        </div>
-        <button type="submit" id="order-button" class = "center">Find My Vacation</button>
-    </form>
-
-    <footer>
-        <a href ="https://github.com/JonusClapshaw/Vacation-Booking-Form"><p>Github</p></a>
-    </footer>
 </body>
 </html>
